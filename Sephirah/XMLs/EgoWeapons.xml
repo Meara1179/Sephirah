@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EgoWeaponsXmlRoot>
+	<EgoWeapon>
+		<EgoWeaponName>Standard Training E.G.O</EgoWeaponName>
+		<EgoWeaponAbnoName>Standard Training-Dummy Rabbit</EgoWeaponAbnoName>
+		<EgoWeaponRiskLevel>TETH</EgoWeaponRiskLevel>
+		<EgoWeaponImagePath>Images\\EgoWeapons\\EGOWeaponTrainingStandardEGO.png</EgoWeaponImagePath>
+		<DamageType>White</DamageType>
+		<DamageRange>5 - 7</DamageRange>
+		<AttackSpeed>Normal</AttackSpeed>
+		<AttackRange>Short</AttackRange>
+		<EgoWeaponDescription>"E.G.O intended for Manager Education"</EgoWeaponDescription>
+		<EgoWeaponAbility>None</EgoWeaponAbility>
+	</EgoWeapon>
+</EgoWeaponsXmlRoot>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EgoSuitsXmlRoot>
+	<EgoSuit>
+		<EgoSuitName>Standard Training E.G.O</EgoSuitName>
+		<EgoSuitAbnoName>Standard Training-Dummy Rabbit</EgoSuitAbnoName>
+		<EgoSuitRiskLevel>TETH</EgoSuitRiskLevel>
+		<EgoSuitImagePath>Images\EgoSuits\EGOSuitTrainingStandardEGO.png</EgoSuitImagePath>
+		<SuitDefenseRed>0.5</SuitDefenseRed>
+		<SuitDefenseWhite>1.0</SuitDefenseWhite>
+		<SuitDefenseBlack>1.5</SuitDefenseBlack>
+		<SuitDefensePale>2.0</SuitDefensePale>
+		<EgoSuitDescription>"E.G.O intended for Manager Education"</EgoSuitDescription>
+		<EgoSuitAbility>None</EgoSuitAbility>
+	</EgoSuit>
+</EgoSuitsXmlRoot>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LcAbnormalitiesXmlRoot>
+	<LcAbnormality>
+		<IsTool>false</IsTool>
+		<AbnoClassification>0-00-00</AbnoClassification>
+		<AbnoName>Standard Training-Dummy Rabbit</AbnoName>
+		<AbnoRiskLevel>TETH</AbnoRiskLevel>
+		<AbnoImagePath>Images\\Abnormalities\\TrainingStandardDummyRabbitPortrait.png</AbnoImagePath>
+		<WorkDamageType>Red</WorkDamageType>
+		<WorkDamageAmount>1 - 2</WorkDamageAmount>
+		<MaxEnkBoxes>10</MaxEnkBoxes>
+		<OutcomeGoodRange>7 - 10</OutcomeGoodRange>
+		<OutcomeNormalRange>4 - 6</OutcomeNormalRange>
+		<OutcomeBadRange>0 - 3</OutcomeBadRange>
+		<ManageGuide>
+			<Guide1>"When Repression work was performed with Standard Training-Dummy Rabbit, the Qliphoth Counter lowered."</Guide1>
+		</ManageGuide>
+		<WorkListInstinct>
+			<Level1>65</Level1>
+			<Level2>65</Level2>
+			<Level3>65</Level3>
+			<Level4>65</Level4>
+			<Level5>65</Level5>
+		</WorkListInstinct>
+		<WorkListInsight>
+			<Level1>65</Level1>
+			<Level2>65</Level2>
+			<Level3>65</Level3>
+			<Level4>65</Level4>
+			<Level5>65</Level5>
+		</WorkListInsight>
+		<WorkListAttachment>
+			<Level1>100</Level1>
+			<Level2>100</Level2>
+			<Level3>100</Level3>
+			<Level4>100</Level4>
+			<Level5>100</Level5>
+		</WorkListAttachment>
+		<WorkListRepression>
+			<Level1>40</Level1>
+			<Level2>40</Level2>
+			<Level3>40</Level3>
+			<Level4>40</Level4>
+			<Level5>40</Level5>
+		</WorkListRepression>
+		<MaxQliphothCount>1</MaxQliphothCount>
+		<DefenseRed>0.5</DefenseRed>
+		<DefenseWhite>1.5</DefenseWhite>
+		<DefenseBlack>1.0</DefenseBlack>
+		<DefensePale>1.0</DefensePale>
+		<AbnoStory>
+			<Story1>"An Abnormality in the shape of a training dummy used to train up-and-coming managers."</Story1>
+			<Story2>
+				"Rumor has it this Abnormality was chosen to be used for training as it is the most docile and tame of any that we have extracted. It’s called a training dummy “rabbit”, but it doesn’t seem to enjoy carrots. It likes people.
+				If it escapes, it is merely following the employee as they leave its Containment Unit."
+			</Story2>
+		</AbnoStory>
+	</LcAbnormality>
+</LcAbnormalitiesXmlRoot>

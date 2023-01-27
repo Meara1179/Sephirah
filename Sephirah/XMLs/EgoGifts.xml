@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EgoGiftsXmlRoot>
+	<EgoGift>
+		<EgoGiftName>Standard Training E.G.O</EgoGiftName>
+		<EgoGiftAbnoName>Standard Training-Dummy Rabbit</EgoGiftAbnoName>
+		<EgoGiftImagePath>Images\EgoGifts\EGOGiftTrainingStandardEGO.png</EgoGiftImagePath>
+		<IsSpecialObtained>false</IsSpecialObtained>
+		<SpecialObtainMethod>None</SpecialObtainMethod>
+		<GiftDropChance>100</GiftDropChance>
+		<GiftSlot>Head 1</GiftSlot>
+		<GiftStats>HP +2, SP +2</GiftStats>
+		<GiftAbilities>None</GiftAbilities>
+	</EgoGift>
+</EgoGiftsXmlRoot>
