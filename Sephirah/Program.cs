@@ -6,9 +6,6 @@ using DSharpPlus;
 using System.Reflection;
 using DSharpPlus.Interactivity.Extensions;
 using System.Configuration;
-using Sephirah.Models;
-using Sephirah.SlashCommands;
-using MySqlConnector;
 
 namespace Sephirah
 {

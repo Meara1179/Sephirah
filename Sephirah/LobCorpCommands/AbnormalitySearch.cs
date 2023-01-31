@@ -12,9 +12,9 @@ using System.Threading.Channels;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Sephirah.SlashCommands
+namespace Sephirah.LobCorpCommands
 {
-    public class SlashModule : Application​Command​Module
+    public class AbnormalitySearch : Application​Command​Module
     {
         SqlCommands database = new SqlCommands();
 
@@ -133,19 +133,7 @@ namespace Sephirah.SlashCommands
                 }
             };
         }
-
-        private StringBuilder ArrayStringAdder(List<int> iArray)
-        {
-            StringBuilder stringBuilder = new StringBuilder();
-
-            for (int i = 0; i < iArray.Count; i++)
-            {
-                stringBuilder.AppendLine($"> **{iArray[i].ToString()}%**");
-            }
-
-            return stringBuilder;
-        }
-
+        #region Enbed Builders
         private DiscordInteractionResponseBuilder AbnoInfoEmbed(LcAbnormality abnormality)
         {
             var buttons = new List<DiscordButtonComponent>();
@@ -373,7 +361,7 @@ namespace Sephirah.SlashCommands
 
             return response;
         }
-
+        #endregion
         #region Risk Colour Picker
         private DiscordColor EmbedColourPicker(LcAbnormality abno)
         {
@@ -457,5 +445,16 @@ namespace Sephirah.SlashCommands
             }
         }
         #endregion
+        private StringBuilder ArrayStringAdder(List<int> iArray)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+
+            for (int i = 0; i < iArray.Count; i++)
+            {
+                stringBuilder.AppendLine($"> **{iArray[i].ToString()}%**");
+            }
+
+            return stringBuilder;
+        }
     }
 }
